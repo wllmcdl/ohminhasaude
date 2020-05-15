@@ -14,7 +14,7 @@ age = 33  # int(input('Age: '))
 height = 168  # int(input('Height (in centimeters): '))
 neck = 37  # float(input('Neck size (in centimeters): '))
 waist = 87  # float(input('Waist size (in centimeters): '))
-weight = 68  # float(input('Weight (in Kilograms): '))
+weight = 68  # float(input('Weight (in Kilograms): '))s
 
 if sex == 2:
     hip = float(input("Hip size(in centimeters): "))
