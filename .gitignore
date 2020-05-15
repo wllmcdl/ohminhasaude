@@ -1,0 +1,9 @@
+.DS_Store
+.env
+-tmp
+env
+venv
+__pycache__
+.pyc
+scrape.json
+scrape.csv
