@@ -3,27 +3,24 @@ from Male import Male
 
 while True:
     print()
-    # 1 == Male
-    # 2 == Female
 
-    print("Male -> 1")
-    print("Female -> 2")
-    sex = int(input("Sex: "))
+    print("Male   -> x\nFemale -> y")
 
-    firstName = "William"  # input('First name: ')
-    lastName = "Lopes"  # input('Last name: ')
+    sex = input("Sex: ")
+    
+    fname = "William"  # input('First name: ')
+    lname = "Lopes"  # input('Last name: ')
     age = 33  # int(input('Age: '))
     height = 168  # int(input('Height (in centimeters): '))
     neck = 37  # float(input('Neck size (in centimeters): '))
     waist = 87  # float(input('Waist size (in centimeters): '))
     weight = 68  # float(input('Weight (in Kilograms): '))s
 
-    if sex == 2:
+    if sex == 'y':
         hip = float(input("Hip size(in centimeters): "))
-        obj = Female(firstName, lastName, age,
-                     height, hip, neck, waist, weight)
-    elif sex == 1:
-        obj = Male(firstName, lastName, age, height, neck, waist, weight)
+        obj = Female(fname, lname, age, height, hip, neck, waist, weight)
+    elif sex == 'x':
+        obj = Male(fname, lname, age, height, neck, waist, weight)
     else:
         print("Insert a valid option")
 
