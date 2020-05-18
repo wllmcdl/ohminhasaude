@@ -7,7 +7,8 @@ while True:
     print("Male   -> x\nFemale -> y")
 
     sex = input("Sex: ")
-    
+
+    '''
     fname = "William"  # input('First name: ')
     lname = "Lopes"  # input('Last name: ')
     age = 33  # int(input('Age: '))
@@ -15,6 +16,15 @@ while True:
     neck = 37  # float(input('Neck size (in centimeters): '))
     waist = 87  # float(input('Waist size (in centimeters): '))
     weight = 68  # float(input('Weight (in Kilograms): '))s
+    '''
+
+    fname = input('First name: ')
+    lname = input('Last name: ')
+    age = int(input('Age: '))
+    height = int(input('Height (in centimeters): '))
+    neck = float(input('Neck size (in centimeters): '))
+    waist = float(input('Waist size (in centimeters): '))
+    weight = float(input('Weight (in Kilograms): '))s
 
     if sex == 'y':
         hip = float(input("Hip size(in centimeters): "))
