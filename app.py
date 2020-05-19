@@ -116,6 +116,7 @@ while True:
                 calories = 1200
                 print('Daily calories to achieve your goal is: ' + str(calories) + ' calories')
 
+    # Gain weight
     elif goal == 'b':
         if percentage == 'a':
             calories = tdee * 0.1 + tdee
@@ -126,5 +127,3 @@ while True:
         if percentage == 'c':
             calories = tdee * 0.3 + tdee
             print('Daily calories to achieve your goal is: ' + str(calories) + ' calories')
-
-    # Gain weight
