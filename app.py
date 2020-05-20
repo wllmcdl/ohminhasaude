@@ -66,7 +66,7 @@ while True:
             + " calories"
         )
     else:
-        print("bmr = " + str(obj.mifflinAndStJeor) + " calories")
+        print("BMR = " + str(obj.mifflinAndStJeor) + " calories")
         tdee = obj.tdee(obj.mifflinAndStJeor, activityFactor)
         print(
             "TDEE (Mifflin St Jeor) = "
