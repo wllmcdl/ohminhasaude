@@ -1,0 +1,110 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div>
+</div>
+
+<form action="/home" method='post'>
+    <div class="entire block">
+        <div class="first block">
+            <div>
+                <input type="text" name="name" placeholder="Name">
+            </div>
+            <div>
+                <input type="text" name="surname" placeholder="Surname">
+            </div>
+            <div>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+        </div>
+
+        <div class="second block">
+            <div>
+                <span>Male</span>
+            </div>
+            <div>
+                <span>Female</span>
+            </div>
+        </div>
+
+        <div class="third block">
+            <div>
+                <label for="age">Age</label>
+                <input type="text" name="age" placeholder="Insert your age">
+            </div>
+            <div>
+                <label for="neck">Neck Size (in cm)</label>
+                <input type="text" name="neck" placeholder="Insert your neck size">
+            </div>
+            <div>
+                <label for="waist">Waist Size (in cm)</label>
+                <input type="text" name="waist" placeholder="Insert your waist size">
+            </div>
+            <div>
+                <label for="hip">Hip Size (in cm)</label>
+                <input type="text" name="hip" placeholder="Insert your hip size">
+            </div>
+            <div>
+                <label for="height">Height (in cm)</label>
+                <input type="text" name="height" placeholder="Insert your height">
+            </div>
+            <div>
+                <label for="weight">Weight (in Kg)</label>
+                <input type="text" name="weight" placeholder="Insert your weight">
+            </div>
+        </div>
+
+        <div class="fourth block">
+            <div>
+                <label for="activity">Activity Level</label>
+                <select name="activity" id="activity">
+                    <option value="little">Little/No exercise</option>
+                    <option value="light">Light exercise ( 1-3 days per week )</option>
+                    <option value="moderate">Moderate exercise ( 3-5 days per week )</option>
+                    <option value="heavy">Heavy exercise ( 6-7 days per week )</option>
+                    <option value="extra">Very heavy exercise ( twice per day, extra heavy workouts )</option>
+                </select>
+            </div>
+            <div>
+                <label for="goal">Goal</label>
+                <label for="gain">Gain</label>
+                <input type="radio" id="gain" value="gain" name="goal">
+                <label for="activity">Lose</label>
+                <input type="radio" id="lose" value="lose" name="goal">
+            </div>
+            <div>
+                <label for="calories">Calories Per Day</label>
+                <label for="calories">10%</label>
+                <input type="radio" id="ten" name="formula">
+                <label for="calories">20%</label>
+                <input type="radio" id="twenty" name="formula">
+                <label for="thirty">30%</label>
+                <input type="radio" id="thirty" name="formula">
+            </div>
+            <div>
+                <label for="formula">Formula</label>
+                <select name="formula" id="formula">
+                    <option value="katch">Katch McArdle</option>
+                    <option value="mifflin">Mifflin and St Jeor</option>
+                </select>
+            </div>
+            <div>
+                <label for="meals">Meals per Day</label>
+                <select name="formula" id="formula">
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                    <option value="five">5</option>
+                    <option value="six">6</option>
+                    <option value="seven">7</option>
+                    <option value="eight">8</option>
+                    <option value="nine">9</option>
+                    <option value="ten">10</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <button value="submit">Next</button>
+</form>
+{% endblock content %}
