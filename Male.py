@@ -58,7 +58,7 @@ Food is converted into energy for our body’s to function through the three ene
 Although established around 100 years ago, we still use the Harris–Benedict prediction in the physical activity lab. Due to changes in lifestyle, new predictions such as the Mifflin St Jeor equation are more accurate. Working with obese patients (BMI 30 or more) the Broca-Index correction makes sense.
 All these measurements simply rely on bodyweight, height, age and gender.
 If you are able to measure lean body mass by bioelectrical impedance analysis you can predict the daily resting energy expenditure by Katch-McArdle and Cunningham formula, respectively.
-Concerning you question, the difference between Harris–Benedict and Mifflin St Jeor equations is around 5 %, with higher accuracy of the later one.
+Concerning you question, the difference between Harris–Benedict and Mifflin St Jeor equations is around 5%, with higher accuracy of the later one.
 '''
 
 '''

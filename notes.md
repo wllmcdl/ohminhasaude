@@ -42,7 +42,7 @@ Por que ela é importante?
 # Gordura
 Por que ela é importante?
 - A ingestão de gordura é importante para o funcionamento normal dos hormônios, especialmente a produção de testosterona. Se você reduzir muito a ingestão de gorduras, a mudança mais perceptível que você notará será a redução da sua libido. A gordura nunca deve ser eliminada de uma dieta.
-
+1
 ##### Cutting
 Durante o cutting nós devemos ingerir menos calorias. A gordura é o macronutriente mais energeticamente denso, então diminuir a ingestão de gordura e a maneira fácil de fazer grandes mudanças na sua ingestão calórica diária. No entanto, como acontece com a proteína, existe um limite mínimo que você não deverá ultrapassar, nesse caso devido aos motivos hormonais mencionados acima. Não consuma menos do que 0,9 g por Kg de massa magra. (Se você ciclar a ingestão de gordura na sua dieta, considere que essa seja a média mínima).
 
